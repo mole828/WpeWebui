@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Index</title>
+</head>
+<body>
+{{range .projects}}
+<a href="/project/{{.Id}}">{{.Title}}</a><br>
+{{end}}
+</body>
+</html>
